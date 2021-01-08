@@ -103,7 +103,9 @@ function loadToDos() {
 
 function splitscreen() {
     document.querySelector(".js-clock").classList.add("leaningLeft");
-    document.querySelector(".js-greetingForm").classList.add("leaningLeft");
+    document.querySelector(".js-greetingPart").classList.add("leaningLeft");
+    document.querySelector(".js-greetingPart").classList.add("widthResize");
+    document.querySelector(".js-greetingForm").classList.add("widthResize");
     document.querySelector(".js-greetings").classList.add("leaningLeft");
     document.querySelector(".js-search").classList.add("leaningLeft");
     document.querySelector(".js-search").classList.add("widthResize");
@@ -114,7 +116,9 @@ function splitscreen() {
 
 function fullscreen() {
     document.querySelector(".js-clock").classList.remove("leaningLeft");
-    document.querySelector(".js-greetingForm").classList.remove("leaningLeft");
+    document.querySelector(".js-greetingPart").classList.remove("leaningLeft");
+    document.querySelector(".js-greetingPart").classList.remove("widthResize");
+    document.querySelector(".js-greetingForm").classList.remove("widthResize");
     document.querySelector(".js-greetings").classList.remove("leaningLeft");
     document.querySelector(".js-search").classList.remove("leaningLeft");
     document.querySelector(".js-search").classList.remove("widthResize");
