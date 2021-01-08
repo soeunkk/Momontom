@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Momontom</title>    
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Hi+Melody&family=Noto+Sans+KR&family=Single+Day&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="js-clock">
+        <h1>00:00</h1>
+    </div>
+
+    <form class="js-greetingForm greetingForm">
+        <input type="text" placeholder="What is your name?"/>
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+
+    <div class="js-search search">
+        <form class="js-searchForm searchForm">
+            <img class="googleIcon" src="images/google_icon.png"/>
+            <input class="js-searchInput" type="text" placeholder="Google Search" autofocus/>
+        </form>
+    </div>
+
+    <span class="js-toDoBtn toDoBtn">✍ToDoList</span>
+    <div class="js-toDo toDo">
+        <form class="js-toDoForm toDoForm">
+            <input class="js-toDoInput" type="text" placeholder="Write a to do" />
+        </form>
+        <ul class="js-toDoList">      
+        </ul>
+    </div>
+
+    <span class="js-weather weather"></span>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="todolist.js"></script>
+    <script src="searching.js"></script>
+</body>
+
+</html>
