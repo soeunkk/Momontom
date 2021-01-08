@@ -9,9 +9,9 @@ function printHourlyMessage(text) {
     const hour = new Date().getHours();
     if (hour >= 4 && hour < 12) {
         greeting.innerText = `Good morning, ${text}!`;
-    } else if (hour < 18) {
+    } else if (hour >= 12 && hour < 18) {
         greeting.innerText = `Good afternoon, ${text}.`;
-    } else if (hour < 22) {
+    } else if (hour >= 18 && hour < 22) {
         greeting.innerText = `Good evening, ${text}.`;
     } else {
         greeting.innerText = `Good day, ${text}.`;
