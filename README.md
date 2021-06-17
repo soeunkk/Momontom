@@ -1,4 +1,4 @@
-# Momontom
+# Momemtum
 바닐라JS로 크롬 모멘텀 만들기
 
 ![screenshot2](./images/screenshot2.png)
